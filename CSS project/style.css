@@ -1,0 +1,181 @@
+*{
+    box-sizing: border-box;
+}
+.header{
+    padding: 10px 0;
+    width: 100%;
+    position: fixed;
+    left:2px;
+    top:0;
+    background-color: blanchedalmond;
+}
+
+body {
+    margin: 0;
+    padding-top: 74px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.search{
+    position: relative;
+    width: 100%;
+    max-width: 150px;
+}
+
+.search__input{
+    width: 100%;
+}
+
+.search__button{
+    border: none;
+    position: absolute;
+    right: 4px;
+    top: 3px;
+    height: 15px;
+    padding: 0 10px;
+}
+
+.search__image{
+
+}
+
+.search__form{
+    display: inline-block;
+}
+
+.navigacija{
+    padding-top:10px;
+    text-align: right;
+}
+
+.navigacijas__item{
+    color: brown;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+.navigacijas__item:hover{
+    color:darkmagenta
+}
+
+.section_1{
+    background-image: url(https://picsum.photos/500/300);
+    background-size: cover;
+    padding: 10px 0 30px 0;
+}
+
+.section_1__button-wrapper{
+    width: 100%;
+
+}
+
+.section_1__button{
+    margin: 0 12px;
+    text-decoration: none;
+    background-color: blanchedalmond;
+    color:blue;
+    padding: 10px 30px; 
+    border-radius: 7px;
+}
+
+.section_1__button:hover{
+    color:brown;
+    opacity: 0.75;
+}
+
+.section_1__button:first-child{
+    margin-left: 0;
+}
+
+.news{
+    padding: 25px 0;
+}
+
+.news__read-more-wrapper{
+    width: 100%;
+    text-align: right;
+}
+
+.news__read-more{
+    color: blue
+}
+
+.banner{
+    background-color: aquamarine;
+    padding: 50px 50px;
+}
+
+.slider{
+    width: 100%;
+    position: relative;
+    color:black
+}
+
+.slider__image{
+    width:100%;
+    height:500px;
+}
+
+.slider__prev{
+    left: 0px;
+}
+
+.slider__next{
+    right: -20px;
+}
+
+.slider__dots{
+    width: 100%;
+    position:absolute;
+    bottom: 0;
+    left:0;
+    padding: 10px 0;
+    z-index:2;
+    text-align: center;
+
+}
+
+.slider__dot{
+    display:inline-block;
+    width: 10px;
+    height: 10px;
+    border: 2px solid blue;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.slider__dot:hover{
+    background-color: blue;
+}
+
+.slider__next, .slider__prev{
+    position:absolute;
+    top: 50%;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.slider__next:hover, .slider__prev:hover{
+    color: blue;
+    cursor: pointer;
+}
+
+.slider__dot.active{
+    background-color: blue;
+}
+
+.table_border{
+    border: 3px solid blue;
+    padding: 10px;
+}
+
+.footer{
+    background-color: blanchedalmond;
+    left:2px;
+    top:0;
+    padding: 10px 0 25px 0;
+}
+
+.Author{
+    background-color: cornflowerblue;
+    text-align: center;
+}
